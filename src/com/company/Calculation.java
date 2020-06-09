@@ -16,6 +16,7 @@ public class Calculation {
         System.out.println("Subtotal:"+subtotal);
         System.out.println("Tax:"+totaltax);
         System.out.println("Tip:"+totaltip);
+        Challenge3.Base();
         System.out.println("Total:"+totalprice);
 
     }

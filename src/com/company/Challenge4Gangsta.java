@@ -33,9 +33,9 @@ Your gangsta name is "M. Diddy SIMPSON Marge-izzle" */
     }
     public static void typename1 (){
         Scanner keyboard = new Scanner (System.in);
-        System.out.print("Type you name playa: ");
+        System.out.print("Type you name, playa: ");
         String fullname = keyboard.nextLine();
-        System.out.println(fullname);
+        System.out.println("Thank you "+fullname);
     }
 }
 

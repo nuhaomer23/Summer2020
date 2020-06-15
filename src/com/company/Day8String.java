@@ -10,7 +10,7 @@ public class Day8String {
         System.out.print("Give me a number: ");
         int number = keyboard.nextInt();
         System.out.print ("Your number is " + number );
-      /*String name= "Nuha";
+      String name= "Nuha";
       sayHi(name);
         Challenge3.Base();
       String teacher = "Maria Suarez is the Teacher in the School";
@@ -21,7 +21,7 @@ public class Day8String {
         Challenge3.Base();
       String letter= "I";
       sayHi(letter);
-        Challenge3.Base();*/
+        Challenge3.Base();
     }
     public static void sayHi (String name){
         System.out.println ("Hi " + name);

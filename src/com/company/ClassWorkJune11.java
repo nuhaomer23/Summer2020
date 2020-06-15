@@ -22,6 +22,7 @@ public class ClassWorkJune11 {
                     temp = temp.substring(len + 1);
                     len = temp.indexOf(letter);
                 }
+                phrase = phrase.replace(letter,' ');
                 firstWord = firstWord.replace(letter,' ');
                 System.out.println(letter + " " + count);
                 //System.out.println("***"+ tcount + "***");

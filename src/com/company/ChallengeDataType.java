@@ -24,12 +24,12 @@ public class ChallengeDataType {
         double d = 4.0;
         String s = "Greenhill ";
         Scanner number = new Scanner(System.in);
+        System.out.println("Input a string: ");
+        String newstring = number.nextLine();
         System.out.println("Input an integer: ");
         int newint = number.nextInt();
         System.out.println("Input a double: ");
         double newdouble = number.nextDouble();
-        System.out.println("Input a string: ");
-        String newstring = number.next();
         int sumall = i + newint;
         double sumdouble = d + newdouble;
         String sumstring = s + newstring;

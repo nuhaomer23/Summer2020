@@ -6,6 +6,7 @@ print string answer for later
 create a random variable for the inputted number
 then print enter a number to see if its weird with the scanner input
 then print this is your number!+number
+create a method for the if else statments
 use if statement and then use the module for if the number %2 is 1 then print weird
 then do an else if statement if the number%2 = 0 then do an if statement if the number is between (inclusive)
 of 2 and 5 (print not weird)

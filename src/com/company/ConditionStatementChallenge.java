@@ -1,5 +1,6 @@
 package com.company;
 /*
+Nuha Omer
 Enter a Scanner system
 Print the scanner Enter the integer number to see if it's weird!
 print string answer for later

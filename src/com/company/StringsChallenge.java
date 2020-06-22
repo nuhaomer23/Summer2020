@@ -35,8 +35,8 @@ public class StringsChallenge {
 
             if (T >= 1 && T <= 10) {
                 for (int loop = 1; loop <= T; loop++) {
-                    System.out.println("Enter the " + loop + " word: ");// the loop is for the number of the word
-                    first = keyboard.next();
+                       System.out.println("Enter the " + loop + " word: ");// the loop is for the number of the word
+                       first = keyboard.next();
                     first = evenandodd(first);// printing the even and odd scrambled word
                     System.out.println();
                 }
@@ -52,6 +52,7 @@ public class StringsChallenge {
         String oddword;
 
         int len = words.length(); // finding the length
+
         len = len - 1;
         for (int even = 0; even <= len; even += 2) {
             char evenletter = words.charAt(even); // use charAt to scramble the even

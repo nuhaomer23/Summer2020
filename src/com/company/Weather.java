@@ -56,7 +56,7 @@ public class Weather {
         int count =0;
         for(int i = 0; i<days; i++  ){
             if (weatherArrays[i]>average) {
-                count = count + i;
+                count = count + 1;
             }
         }
         System.out.println(count+" days were above average");

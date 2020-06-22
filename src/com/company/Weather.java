@@ -24,7 +24,7 @@ create a for loop for the number of days that are greater than the average
 Create for loop controlled by days and initialize i as 0
 initialize count
 then use an if statement to say weather array> average
-do count = count + i
+do count = count + 1
 Println counter days were above average 
  */
 

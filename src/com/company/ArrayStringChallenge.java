@@ -46,7 +46,7 @@ public class ArrayStringChallenge {
                     String [] output = outputarray;
                     System.out.println("Enter the " + loop + " word: ");// the loop is for the number of the word
                     first = keyboard.next();
-                    output = evenandodd(first);// printing the even and odd scrambled word
+                    first = evenandodd(first);// printing the even and odd scrambled word
                     System.out.println();
                 }
             }

@@ -6,8 +6,18 @@ Import Java util
 Create Random
 Create array
 get random for length of the array
-generate x amount of random numbers in the first array
-make method for swtiching
+initialize firstprelace
+intialize second replace
+create a do while loop to define both variables
+create while that is when the variable equal eachother
+print both variables
+print array
+print swap method
+print array
+make method for switching(numbers int first replace int secondreplace)
+create temp variable that is the first replace
+    firstreplace= secondreplace
+    secondreplace = temp
  */
 public class ClassWorkJune23 {
 

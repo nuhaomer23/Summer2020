@@ -48,8 +48,8 @@ public class StringsChallenge {
 
     }
     public static String evenandodd(String words) {
-        String evenword;
-        String oddword;
+        //String evenword;
+        //String oddword;
 
         int len = words.length(); // finding the length
 

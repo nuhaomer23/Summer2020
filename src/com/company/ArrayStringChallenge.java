@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -30,48 +31,46 @@ public class ArrayStringChallenge {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int T;
-
-        String first;
+        String first="";
             System.out.println("Type the number of words in your sentence here: ");
             T = keyboard.nextInt();// This is where the number of words by the user is needed
             while (T < 1 && T > 10) {
             System.out.println("Error (should be between 1 and 10) Try Again!");
-            first = keyboard.next();// when it does not fit the constraints
+            T = keyboard.nextInt();// when it does not fit the constraints
             }
+            String [] outputarray = new String[10];
             if (T >= 1 && T <= 10) {
 
+                System.out.println("Enter each of the " + T + " words followed by enter");// the loop is for the number of the word
                 //String [] outputarray = {" ", " ", " ", " ", " ", " ", " ", " ", " ", " "}
                 for (int loop = 1; loop <= T; loop++) {
-                    String [] outputarray = new String[loop];
-                    String [] output = outputarray;
-                    System.out.println("Enter the " + loop + " word: ");// the loop is for the number of the word
-                    first = keyboard.next();
-                    first = evenandodd(first);// printing the even and odd scrambled word
-                    System.out.println();
+                     outputarray[loop-1]= evenandodd(keyboard.next());
+                    //System.out.println(Arrays.toString(outputarray));
                 }
             }
-
-
+            System.out.println("Scrambled output");
+            System.out.println(Arrays.toString(outputarray));
 
     }
     public static String evenandodd(String words) {
-        char evenletter;
-        char oddletter;
-        int len = words.length(); // finding the length
 
+        char evenletter, oddletter;
+        String output="";
+        int len = words.length(); // finding the length
         len = len - 1;
         for (int even = 0; even <= len; even += 2) {
             evenletter = words.charAt(even); // use charAt to scramble the even
-            System.out.print(evenletter); // printing the even
-
-            System.out.print(" "); // printing the space between the two scrambled parts
+            //System.out.print(evenletter); // printing the even
+            output=output+evenletter;
+        }
+            output=output+" ";
+            //System.out.print(" "); // printing the space between the two scrambled parts
             for (int odd = 1; odd <= len; odd += 2) { // the loop that gets the odd index
                 oddletter = words.charAt(odd);
-                System.out.print(oddletter); // printing the odd letter
-                words = evenletter + " " + oddletter;
+                //System.out.print(oddletter); // printing the odd letter
+                output=output+oddletter;
             }
-        }
-            return words;
+            return output;
     }
 
     }

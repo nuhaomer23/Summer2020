@@ -78,8 +78,6 @@ Return method
  */
 public class FinalProject {
     public static void main(String[] args) throws FileNotFoundException{
-        // this creates new scanner object
-        Scanner input = new Scanner(System.in);
         // this initializes the temp variables
         String temp1 = "";
         int temp2 = 0;
@@ -93,6 +91,8 @@ public class FinalProject {
         welcome();
         // this do while loop asks which they want to play, calls, the method, asks if they wat to play again, and then prints scores
         do {
+            // this creates new scanner object
+            Scanner input = new Scanner(System.in);
             // this creates new file
             File file = new File ("/Users/nuhaomer/IdeaProjects/Summer2020/src/com/company/FinalProject.txt");
             // create new scanFile object inside the loop so it resets

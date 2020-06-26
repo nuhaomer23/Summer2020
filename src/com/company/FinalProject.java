@@ -80,8 +80,6 @@ public class FinalProject {
     public static void main(String[] args) throws FileNotFoundException{
         // this creates new scanner object
         Scanner input = new Scanner(System.in);
-        // this creates new file
-        File file = new File ("/Users/nuhaomer/IdeaProjects/Summer2020/src/com/company/FinalProject.txt");
         // this initializes the temp variables
         String temp1 = "";
         int temp2 = 0;
@@ -95,6 +93,8 @@ public class FinalProject {
         welcome();
         // this do while loop asks which they want to play, calls, the method, asks if they wat to play again, and then prints scores
         do {
+            // this creates new file
+            File file = new File ("/Users/nuhaomer/IdeaProjects/Summer2020/src/com/company/FinalProject.txt");
             // create new scanFile object inside the loop so it resets
             Scanner scanFile = new Scanner(file);
             // asks which category
@@ -102,7 +102,7 @@ public class FinalProject {
             String answer = input.nextLine();
             // if they say words, print this
             if (answer.contains("words")) {
-                System.out.print("The category is Disney, Marvel, and Star Wars characters. What is your guess? ");
+                System.out.print("The category is Disney, Marvel, and Star Wars characters (type the name in one word with a Capital letter). What is your guess? ");
                 String guessWord = input.next();
                 // call method, if they get it right, add one to winCount
                 if (words(guessWord, scanFile, temp1) == true){
@@ -213,6 +213,7 @@ public class FinalProject {
         return flag;
     }
     public static boolean measurements(double guessDoub, Scanner scanFile, double temp3) {
+        guessDoub = (((int) (guessDoub*100))/100.0);
         // creates boolean variable
         boolean flag = false;
         // looks for whatever they typed in
@@ -246,11 +247,19 @@ public class FinalProject {
     }
     public static void welcome(){
         // prints a welcome sign to welcome users
-        System.out.println(" +-------------------------+ ");
-        System.out.println(" |   Welcome to our game!  | ");
-        System.out.println(" |   We hope you enjoy it! | ");
-        System.out.println(" |   Erica, Isabel, Nuha   | ");
-        System.out.println(" +-------------------------+ ");
+        System.out.print("+");
+        for (int dash = 1; dash <=25 ; dash++) {
+            System.out.print("-");
+        }
+        System.out.println("+");
+        System.out.println("|   Welcome to our game!  | ");
+        System.out.println("|   We hope you enjoy it! | ");
+        System.out.println("|   Erica, Isabel, Nuha   | ");
+        System.out.print("+");
+        for (int dash = 1; dash <=25 ; dash++) {
+            System.out.print("-");
+        }
+        System.out.println("+");
     }
 
 

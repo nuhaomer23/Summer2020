@@ -1,0 +1,20 @@
+Jasmine Elsa 4 Cinderella 10.3 Belle Tiana 10.7 Pocahontas 9 11 15 SnowWhite 11.0 12.1 10 Flounder 11.8 11.5 6
+1 2 3 Mulan 5 Eric 7 10.4 Ariel Sebastian 10.9 10.5 16 18 17 20 19 Aladdin 12.3 12.4
+Abu Jafar Genie 13 10.2 10.0 Olaf Sven 10.1 10.6 10.8 12.2 12.5 Iago EugeneFitzherbert 12.7
+Simba 12.8 50  7.8 Hercules 7.9 51 52 8.0 Sarabi Mufasa Timone 8.1 53 8.3 8.4 Woody Buzz Andy Jessie
+8.5 8.6 14 24 25 MikeWazowski Merida Mulan Pinocchio Piglet 30 31 32 33 9.0 9.1 9.2 9.5 9.4 R2-D2
+Rex Sully Tinkerbell 9.6 35 36 9.8 Venom WinnieThePooh 9.9 37 40 Yoda Wall-E 41 42 45 FlynnRider Vampirina Tigger
+21 Maximus 23 22 12.9 Pascal 13. 5 Christoff Hans 13.9 Triton Ursula Scar Pumba 13.8 78 98 99 Pluto 13.0
+MickeyMouse 34 EvilQueen 31 45 16.0 Mushu 17.8 Maleficent 19.1 86 Alice AntMan 76 Angel 54 53 51 97 69
+65 Anna Bambi Baymax Beast Belle 16.4 16.9 17.0 9.1 9.6 9.8 9.9 9.5 BoPeep BlackPanther BlackWidow 9.2 11.4 11.5
+CaptainMarvel 15.1 15.8 15.6 15.3 15. 4 59 51 68 DaisyDuck 58 DarthVader Sleepy Grumpy Sneezy Doc Dopey Happy Bashful 91
+KyloRen Ray Rose Maleficent 15.4 15.5 15.6 SheerKaan Kaa Ratcliffe ShanYu CaptainHook 15.7 2.0 2.1 2.2 2.4 2.5 2.6 2.7
+LukeSkywalker Leia Forky 92 19.8 19.3 19.5 17.6 17.3 63 HanSolo Hulk MaryPoppins Megara 11.8 11.9 Elena PeterPan DoctorStrange 72
+Hades Sykes Yzma MadamMedusa 2.9 3.0 3.2 3.3 3.4 Hopper Sally Mater DoctorFacilier BigBadWolf ThreeLittlePigs MotherGothel AmosSlame 3.5 3.6 3.7
+LightningMcQueen 83 HeiHei Maui Hook 61 8 61.9 Chip Drizzella Anastasia 17.7 179 96 Chewbacca C-3PO BB-8 SpiderMan Hawkeye 57
+4.0 Ultron Hela 79 Kaecilius Magneto PeterParker 4.5 4.7 4.3 4.2 4.1 Tinkerbell 4.8 Kronk PrinceCharming GusGus 19.9 Pinnochio RobinHood
+Loki RedSkull Galactus Thanos 5.0 5.3 29 39 49 Lumiere 5.6 Dumbo 5.8 Quasimodo Lilo 5.7 5.1 62 67 Scuttle
+Lady 19.0 Tramp 20.0 20.1 20.4 20.3 87 20.9 20.5 20.2 21.0 95 Tarzan Jane 85 20.8 21.2 Nala Periwinkle
+Huey Dewey Louie TheMadHatter ChesireCat Eeyore PrinceEric 99 100 30.8 30.9 31.0 31.1 31.2 31.3 31.4 31.6 31.7 Slinky Randall
+90 Clarabelle 24.1 24.2 24.3 24.4 24.5 Goofy DonaldDuck 22.2  JackSkellington JiminyCricket 24.0 23.9 23.8 23.7 23.6 23.4 23.8 23.6.
+Huey Dewey Louie TheMadHatter ChesireCat Eeyore PrinceEric 0.9 22.1 0.0 0.1 0.2 0.3 0.4 0.5  Slinky Randall 0.6 0.7 0.8
